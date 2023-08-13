@@ -1,0 +1,42 @@
+.Chair {
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 2px solid orange !important;
+  display: flex;
+  border-radius: 10px;
+  background-color: white;
+
+}
+.Chair:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.Chair.booking{
+    background-color: orange;
+    color: white;
+    border: transparent;
+}
+.Chair.booked{
+    background-color: gray;
+    color: white;
+    border: transparent;
+    pointer-events: none;
+    border: 2px solid gray!important;
+}
+.cursor{
+    cursor:pointer;
+}
+.Chair.disabled{
+  border: transparent!important;
+  pointer-events: none;
+  background-color: transparent;
+  color: yellow;
+  font-weight: bold;
+  font-size: 18px;
+}
+

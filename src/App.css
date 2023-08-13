@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+.background{
+    background-image: url(../public/bgmovie.jpg);
+    background-size:cover;
+    background-position: center; 
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.filter{
+    
+   
+    background-color: rgba(0, 0, 0, 0.646);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dayHang{
+    color: yellow;
+    font-weight: bold;
+    font-size: 18px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.manHinh{
+    background-color: orange;
+    border-top-left-radius: 100% ;
+    border-top-right-radius: 100%;
+    box-shadow: 0 20px 20px 0px;
+    width: 85%;
 }
-
-.App-link {
-  color: #61dafb;
+.result{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.result__bot td{
+    border: 1px solid rgba(0, 0, 0, 0.209);
+    color: rgb(250, 191, 13);
+    font-weight: bold;
+}
+.result__bot{
+    --bs-table-bg: none;
+    --bs-table-border-color:none;
+   
+}
+.thanhToan{
+    color: white !important;
+}
+.top{
+    color: white !important;
+    border-bottom: none !important;
+    border-top-color: black;
 }
